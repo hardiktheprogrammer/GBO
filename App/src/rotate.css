@@ -1,0 +1,9 @@
+.square {
+	transform: rotateY(45deg);
+	animation: rotateAnimation 3s linear infinite;
+}
+
+@keyframes rotateAnimation {
+	from {transform: rotateY(45deg);}
+	to {transform: rotateY(225deg);}
+}

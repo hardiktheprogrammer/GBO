@@ -1,6 +1,7 @@
 .square{
 	transform: rotateY(45deg);
 	animation: rotateAnimation 1s linear infinite;
+	margin-bottom:100 px;;
 }
 
 @keyframes rotateAnimation {
@@ -12,4 +13,25 @@
 .curved-text {
 	transform: rotate(-45deg);
   }
-  
+  .boxpo{
+	position:relative;
+	left: 16rem;
+	bottom: 22rem;
+	margin: 0;
+	padding: 0;
+	z-index: 10;
+	width: 24rem;
+	place-content: center;
+
+}
+.allcomponent{
+	z-index: 10;
+	position: relative;
+	bottom: 22rm;
+	margin: 0;
+	padding: 0;
+}
+@media (max-width:991px){
+
+
+}

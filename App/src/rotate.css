@@ -24,6 +24,13 @@
 	place-content: center;
 
 }
+.allcomponent{
+	z-index: 10;
+	position: relative;
+	bottom: 22rm;
+	margin: 0;
+	padding: 0;
+}
 @media (max-width:991px){
 
 

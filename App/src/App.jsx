@@ -5,19 +5,25 @@ import img from "./assets/UPDATED Giving Back Official PNG.png";
 import "./rotate.css";
 import Carved from "./components/Carved";
 import { Background } from "./components/Background";
+import Navbar from "./components/Navbar";
 // import videoBg from "./assets/video.mp4"
+import styles from "./style";
 
 function App() {
-
   return (
-    <div >
-     <Background>
-     <Carved class="relative mb-0 z-10"></Carved>
-      <div className="boxpo">
-        <img class="square" src={img}></img>
+    <div className="bg-primary w-full overflow-hidden">
+      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+        <div className={`${styles.boxWidth}`}>
+          <Navbar />
+        </div>
       </div>
-      </Background> 
-      
+      <div className={`bg-primary ${styles.flexStart}`}>
+        <div className={`${styles.boxWidth}`}>
+          <Background>
+
+          </Background>
+        </div>
+      </div>
     </div>
   );
 }

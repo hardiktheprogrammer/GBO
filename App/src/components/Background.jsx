@@ -9,7 +9,7 @@ export const Background = () => {
     <div className="main">
       <video src={videoBg} autoPlay loop muted />
       <div class="content">
-        <Carved class="relative mb-0 z-10"></Carved>
+        <Carved></Carved>
         <div className="boxpo">
           <img class="square" src={img}></img>
         </div>

@@ -16,7 +16,8 @@
   }
   
   .content {
-    position: absolute;
+    z-index: 10;
+    position: relative;
     width: 100%;
     height: 100%;
     /* top: 0; */
@@ -25,8 +26,8 @@
     justify-content: center;
     align-items: center;
     color: white;
-    bottom: 5rem;
-    left: 31rem;
+    bottom: 46rem;
+    left: 12.6rem;
   }
   
   .overlay {
